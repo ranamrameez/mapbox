@@ -1,0 +1,9 @@
+map.addControl(new MapboxExportControl({
+	PageSize: Size.A3,
+	PageOrientation: PageOrientation.Portrait,
+	Format: Format.PNG,
+	DPI: DPI[96],
+	Crosshair: true,
+	PrintableArea: true,
+	accessToken: mapboxgl.accessToken,
+}), 'top-left');

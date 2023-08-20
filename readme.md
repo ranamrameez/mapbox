@@ -48,9 +48,17 @@ __Don't forget to give credit to the original creators of all the controls and M
 		  type="text/css" />
 
  ## 5. Directions CDN
-    <!-- CDN: directions js-->
     <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.js"></script>
-    <!-- CDN: directions css-->
     <link rel="stylesheet"
       href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-directions/v4.1.1/mapbox-gl-directions.css"
     type="text/css">
+
+## 6. Export Map CDN
+    <link href="https://watergis.github.io/mapbox-gl-export/mapbox-gl-export.css" rel="stylesheet" />
+    <script src="https://watergis.github.io/mapbox-gl-export/mapbox-gl-export.js"></script>
+
+<br>
+
+![Export Map](./samples/map.png)
+
+<br>
