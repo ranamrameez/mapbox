@@ -1,0 +1,24 @@
+/* <div class="calculation-box">
+	<p>Click the map to draw a polygon.</p>
+	<div id="calculated-area"></div>
+</div> */
+.calculation-box {
+	height: 75px;
+	min-width: 150px;
+	position: absolute;
+	bottom: 100px;
+	left: 10px;
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 15px;
+	text-align: center;
+}
+
+.calculation-box:hover {
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+.calculation-box p {
+	font-family: 'Open Sans';
+	margin: 0;
+	font-size: 13px;
+}
