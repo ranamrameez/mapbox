@@ -1,0 +1,32 @@
+.mapboxgl-ctrl-geocoder .mapboxgl-ctrl-geocoder *{
+
+}
+
+.mapboxgl-ctrl-geocoder {
+    font-size: 18px;
+    line-height: 24px;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, Helvetica, sans-serif;
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    min-width: 240px;
+    z-index: 1;
+    border-radius: 4px;
+    transition: width .25s, min-width .25s;
+}
+
+.mapboxgl-ctrl-geocoder, .mapboxgl-ctrl-geocoder *, .mapboxgl-ctrl-geocoder *:after, .mapboxgl-ctrl-geocoder *:before {
+    box-sizing: border-box;
+}
+
+.mapboxgl-ctrl-geocoder--icon-search {
+    position: absolute;
+	display: inline-block;
+    vertical-align: middle;
+    speak: none;
+    fill: #757575;
+}
+
+.mapboxgl-ctrl-geocoder--input {
+    padding: 6px 35px !important;
+}
